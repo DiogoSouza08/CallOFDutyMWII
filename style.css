@@ -136,7 +136,7 @@ nav li a {
 	
 	display: block;
 }
-nav li a:hover {color: #2d2321;}
+nav li a:hover {color: #51C74F;}
 
 .container-logo{
     
@@ -169,7 +169,7 @@ nav li a:hover {color: #2d2321;}
 }
 .header-section .placefiller {line-height: 300px;color: #FFFFFF;
     font-size: 3em;}
-.body-section .placefiller {line-height: 900px;}
+.body-section .placefiller {line-height: 900px;top: 250%;}
 .footer-section .placefiller {
 	line-height: 200px;
 	border: 1px dashed rgba(190, 196, 202, 0.9);
@@ -179,18 +179,18 @@ nav li a:hover {color: #2d2321;}
 	width: 60%;
 	left: 40%;
 	position: relative;
+	
 }
 
 .container-slogan1{
-	font-family: sans-serif;
+	
 	margin: auto;
 	position: absolute;
-	
 	top: 25%;
-	left: 0.4%;
-	font-size: 4rem;
-	width: 30%;
-	height: 50%;
+	left: 4%;
+	width: 25%;
+	height: 70%;
+	
 	
 	}
 
@@ -198,6 +198,114 @@ nav li a:hover {color: #2d2321;}
 		width: 145%;
 	}
 	
+
+	.slogan2{
+		color: white;
+		font-size: 108%;
+		line-height: 132%;
+		position: relative;
+	}
+
+
+
+		.botão-comprar{
+			width: 65%;
+			top: 15%;
+			position: relative;
+			
+		}
+
+
+		.botão-trailer{
+			width: 65%;
+			top: 15%;
+			position: relative;
+			
+		}
+
+
+		.flex-container {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			
+			display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			
+			-webkit-flex-flow: row wrap;
+			justify-content: space-around;
+		  }
+		  
+		  .flex-item {
+			
+			padding: 5px;
+			width: 200px;
+			height: 150px;
+			margin-top: 10px;
+			
+			line-height: 180px;
+			color: white;
+			font-weight: bold;
+			font-size: 3em;
+			text-align: center;
+		  }
+
+		  .logo-playstation{
+			width: 45%;
+			position: relative;
+		  }
+
+		  .logos-empresas{
+			position: relative;
+			width: 100%;
+			
+			
+		  }
+
+		 
+			
+		 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
 
 
 @media only screen and (max-width: 780px) {
@@ -410,6 +518,61 @@ header.close,
 .logo{
 	display: none;
 }
+.container-slogan1{
+	top: 12%;
+}
+
+.botão-comprar{
+	width: 65%;
+	top: 10%;
+
+	
+}
+
+.botão-trailer{
+	width: 65%;
+	top: 10%;
+}
+
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+	.botão-comprar{
+		width: 65%;
+		top: 5%;
+	
+		
+	}
+	
+	.botão-trailer{
+		width: 65%;
+		top: 5%;
+	}
+}	
