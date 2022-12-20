@@ -1,5 +1,8 @@
 
 
+
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -48,7 +51,7 @@ table {
 /* @end */
 
 body {
-	background-color: #000;
+	background-color: #1a1a1a;
 	
 	font: 12px;
     font-family: 'Poppins', sans-serif;
@@ -179,7 +182,7 @@ nav li a:hover {color: #51C74F;}
 	width: 60%;
 	left: 40%;
 	position: relative;
-	
+	top: 20%;
 }
 
 .container-slogan1{
@@ -261,27 +264,71 @@ nav li a:hover {color: #51C74F;}
 		  .logos-empresas{
 			position: relative;
 			width: 100%;
-			
-			
+		
 		  }
 
-		 
+		.section2{
+			background-color: #1a1a1a;
+			width: 100%;
+			height: 150%;
+			color: #ffffff;
+			position: absolute;
+			border: 1px solid rgb(255, 255, 255);
+			text-align: center;
 			
-		 
+		}
 
+		.novas-armas{
+			font-size: 3.5rem;
+			top: 14%;
+			position: relative;
+		}
 
+	.armas-nome{
+	
+		top: 25%;
+		position: relative;
+		width: 30%;
+		height: 53%;
+		display: block;
+	}
 
+	.arma1{
+		width: 85%;
+	}
 
+	.arma2{
+		width: 85%;
+	}
 
+	.arma3{
+		width: 85%;
+	}
 
+	.arma4{
+		width: 85%;
+	}
 
+	.arma5{
+		width: 85%;
+	}
 
+	.armas-imagens{
+		
+		position: absolute;
+		width: 65%;
+		height: 53%;
+		top: 32%;
+		left: 30%;
+	}
+	.aug-a3{
+		width: 98%;
+	
+		
+		
+	}
 
-
-
-
-
-
+	
 
 
 
@@ -534,8 +581,9 @@ header.close,
 	top: 10%;
 }
 
-
-
+.aug-a3{
+	top: 3.8%;
+	position: relative;
 }
 
 
@@ -575,4 +623,29 @@ header.close,
 		width: 65%;
 		top: 5%;
 	}
+
+
+	.aug-a3{
+		top: 18.5%;
+		position: relative;
+	}
 }	
+
+
+@media only screen and (max-width: 390px) {
+
+	.aug-a3{
+		top: 18.5%;
+		position: relative;
+		
+	}
+}
+
+@media only screen and (max-width: 550px) {
+
+	.aug-a3{
+		top: 16%;
+		position: relative;
+		
+	}
+}
