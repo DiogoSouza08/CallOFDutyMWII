@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="84.6666mm" height="25.3998mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 8466.66 2539.98"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="674" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Poppins">
+		<font-face-src>
+			<font-face-name name="Poppins Regular"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="1" horiz-adv-x="320" d="M37.9974 639.997l0 83.0065 188.008 0 0 -723.003 -92.0084 0 0 639.997 -96.0001 0z"/>
+   <glyph unicode="4" horiz-adv-x="629" d="M39.9991 161.003l0 68.9946 351.001 486.006 108.994 0 0 -476.009 100.004 0 0 -78.9914 -100.004 0 0 -161.003 -89.995 0 0 161.003 -370 0zm374.004 459.995l-269.002 -381.004 269.002 0 0 381.004z"/>
+   <glyph unicode="6" horiz-adv-x="634" d="M465.005 550.997c-14.6675,74.0047 -60.3439,111.007 -137.006,111.007 -59.3372,0 -103.667,-22.8382 -133.002,-68.5029 -29.335,-45.6647 -43.663,-120.84 -42.9958,-225.502 15.3347,34.6729 40.8302,61.8306 76.4981,81.4965 35.6679,19.6659 75.5031,29.5106 119.506,29.5106 68.6668,0 123.497,-21.3399 164.491,-64.0079 41.0058,-42.668 61.5028,-101.666 61.5028,-176.993 0,-45.337 -8.83796,-86.0033 -26.5022,-121.999 -17.6642,-36.0074 -44.3302,-64.6751 -79.9981,-86.0033 -35.6679,-21.3399 -78.8275,-32.0039 -129.502,-32.0039 -68.6668,0 -122.327,15.3347 -160.991,46.0042 -38.6763,30.6695 -65.6701,72.998 -81.0048,126.997 -15.3347,53.9993 -23.0021,120.664 -23.0021,199.995 0,244.677 85.336,367.003 255.996,367.003 65.3423,0 116.673,-17.6642 154.003,-53.0043 37.3418,-35.3284 59.3372,-79.9981 65.9979,-133.997l-83.9898 0zm-136.011 -148.993c-28.656,0 -55.6616,-5.84124 -80.9931,-17.5003 -25.3316,-11.6708 -45.8403,-29.335 -61.5028,-53.0043 -15.6625,-23.6693 -23.4937,-52.501 -23.4937,-86.4949 0,-50.6748 14.6675,-91.8328 43.9908,-123.509 29.335,-31.6645 71.3358,-47.4908 126.002,-47.4908 46.6714,0 83.8377,14.4919 111.499,43.4991 27.6727,28.9955 41.5091,68.1635 41.5091,117.492 0,52.0093 -13.3447,92.8395 -40.0108,122.502 -26.666,29.6628 -65.6584,44.5058 -117,44.5058z"/>
+   <glyph unicode="M" horiz-adv-x="861" d="M784.003 691.994l0 -691.994 -91.0017 0 0 515.996 -229.998 -515.996 -64.0079 0 -230.993 517.003 0 -517.003 -91.0017 0 0 691.994 98.0018 0 255.996 -571.997 255.996 571.997 97.0068 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Poppins";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .str0 {stroke:#FEFEFE;stroke-width:35.28;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+    .fil1 {fill:#FEFEFE}
+    .fnt0 {font-weight:normal;font-size:854.27px;font-family:'Poppins'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0 str0" points="379.43,334.21 379.43,1374.62 1177.07,2172.26 8049.03,2172.26 8049.03,1082.48 7291.8,325.26 "/>
+  <text x="3163.04" y="1563.13"  class="fil1 fnt0">M416</text>
+ </g>
+</svg>
