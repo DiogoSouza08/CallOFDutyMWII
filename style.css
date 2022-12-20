@@ -1,8 +1,4 @@
 
-
-
-
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -128,15 +124,13 @@ nav {
 }
 nav li {
 	float: left;
-	
 	display: inline-block;
 }
 nav li a {
-	font-size: 14px;
+	font-size: 16px;
 	color: #fff;
-	padding: 22px 15px;
+	padding: 22px 45px;
 	font-weight:600;
-	
 	display: block;
 }
 nav li a:hover {color: #51C74F;}
@@ -323,8 +317,7 @@ nav li a:hover {color: #51C74F;}
 	}
 	.aug-a3{
 		width: 98%;
-	
-		
+		position: relative;
 		
 	}
 
@@ -582,7 +575,7 @@ header.close,
 }
 
 .aug-a3{
-	top: 3.8%;
+	top: 10%;
 	position: relative;
 }
 
@@ -625,27 +618,17 @@ header.close,
 	}
 
 
-	.aug-a3{
-		top: 18.5%;
-		position: relative;
-	}
+
 }	
 
 
 @media only screen and (max-width: 390px) {
 
-	.aug-a3{
-		top: 18.5%;
+	
+	.novas-armas{
+		font-size: 2.5rem;
+		top: 14%;
 		position: relative;
-		
 	}
 }
 
-@media only screen and (max-width: 550px) {
-
-	.aug-a3{
-		top: 16%;
-		position: relative;
-		
-	}
-}
