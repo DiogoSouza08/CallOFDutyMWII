@@ -400,7 +400,13 @@ nav li a:hover {color: #7cd217;}
 	.img-none{display: none;}
 
 }
+@media only screen and (max-width: 1200px) {
+	.logo2-container{
+		left: 25%;
+		position: relative;
+	}
 
+}
 
 @media only screen and (max-width: 780px) {
 
@@ -633,7 +639,7 @@ header.close,
 .logo2-container{
 	
 	width: 85%;
-	top: 1.6%;
+	top: 1.8%;
 	position: relative;
 	left: 7.4%;
 	display: flex;
@@ -674,19 +680,51 @@ header.close,
 		top: 5%;
 	}
 
+.slogan{
+	width: 20%;
+}
+.container-slogan3{
+	font-size: 0.6rem;
+	}
+	.slogan3{
+		font-size: 2rem;
+		top: 2.2%;
+		
+		
+	}
+	.container-slogan4{
+		font-size: 0.6rem;
+		
+		
+		}
+		
+		#slogan4{
+			font-size: 2rem;
+			top: 6.5%;
+			position: relative;		
+}	
+}
 
 
+@media only screen and (max-width: 375px) {
+
+	#slogan4{
+		font-size: 1.8rem;
+		top: 7%;
+		position: relative;		
 }	
 
 
-@media only screen and (max-width: 390px) {
+}
 
-	
-	.slogan3{
-		font-size: 1.5rem;
-		top: 14%;
-		position: relative;
-		
-	}
+@media only screen and (max-width: 320px) {
+
+	#slogan4{
+		font-size: 1.8rem;
+		top: 9%;
+		position: relative;		
+}	
+
+
 }
 
