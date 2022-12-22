@@ -133,7 +133,7 @@ nav li a {
 	font-weight:600;
 	display: block;
 }
-nav li a:hover {color: #51C74F;}
+nav li a:hover {color: #7cd217;}
 
 .container-logo{
     
@@ -207,17 +207,15 @@ nav li a:hover {color: #51C74F;}
 
 		.botão-comprar{
 			width: 65%;
-			top: 15%;
 			position: relative;
-			
+			top: 5%;
 		}
 
 
 		.botão-trailer{
 			width: 65%;
-			top: 15%;
 			position: relative;
-			
+			top: 5%;
 		}
 
 
@@ -258,13 +256,14 @@ nav li a:hover {color: #51C74F;}
 		  .logos-empresas{
 			position: relative;
 			width: 100%;
+			
 		
 		  }
 
 		.section2{
 			background-color: #1a1a1a;
 			width: 100%;
-			height: 150%;
+			height: 950%;
 			color: #ffffff;
 			position: absolute;
 			border: 1px solid rgb(255, 255, 255);
@@ -272,11 +271,22 @@ nav li a:hover {color: #51C74F;}
 			
 		}
 
+		
+
+
 		.slogan3{
 			font-size: 5rem;
-			top: 14%;
+			top: 2.5%;
 			font-family: 'Bebas Neue', cursive;
 			position: relative;
+			color: #7cd217;
+		}
+		#slogan4{
+			font-size: 3rem;
+			top: 4.5%;
+			font-family: 'Bebas Neue', cursive;
+			position: relative;
+			color: #7cd217;
 		}
 
 	.armas-nome{
@@ -288,10 +298,83 @@ nav li a:hover {color: #51C74F;}
 		display: block;
 	}
 
-
-
+	.logo2{
+		width: 50%;
+		
+	}
 	
+	.container-slogan3{
+		
+		width: 75%;
+		left: 12.6%;
+		line-height: 130%;
+		top: 1.4%;
+		position: relative;
+		font-size: 1rem;
+		
+		
+	}
+	.container-slogan4{
+		
+		width: 75%;
+		left: 12.6%;
+		line-height: 130%;
+		top: 2%;
+		position: relative;
+		font-size: 1rem;
+	}
+	.imgs{
+		padding: .5vw;
+		font-size: 0;
+		display: -ms-flexbox;
+		-ms-flex-wrap: wrap;
+		-ms-flex-direction: column;
+		-webkit-flex-flow: row wrap; 
+		flex-flow: row wrap; 
+		display: -webkit-box;
+		display: flex;
+		position: relative;
+		top: 2%;
+	}
+	
+	.imgs div { 
+		-webkit-box-flex: auto;
+		-ms-flex: auto;
+		flex: auto; 
+		width: 450px; 
+		margin: .5vw; 
+	  }
 
+	  .imgs div img { 
+		width: 100%; 
+		height: auto; 
+	  }
+
+	  #imgs-personagens{
+		font-size: 0;
+		display: -ms-flexbox;
+		-ms-flex-wrap: wrap;
+		-ms-flex-direction: column;
+		-webkit-flex-flow: row wrap; 
+		flex-flow: row wrap; 
+		display: -webkit-box;
+		display: flex;
+		position: relative;
+		top: 3.2%;
+	}
+	
+	#imgs-personagens div { 
+		-webkit-box-flex: auto;
+		-ms-flex: auto;
+		flex: auto; 
+		width: 150px; 
+		
+	  }
+
+	  #imgs-personagens div img { 
+		width: 100%; 
+		height: auto; 
+	  }
 
 
 
@@ -313,8 +396,10 @@ nav li a:hover {color: #51C74F;}
 		
 
 
+@media only screen and (max-width: 751px) {
+	.img-none{display: none;}
 
-
+}
 
 
 @media only screen and (max-width: 780px) {
@@ -548,30 +633,12 @@ header.close,
 .logo2-container{
 	
 	width: 85%;
-	top: 10%;
+	top: 1.6%;
 	position: relative;
 	left: 7.4%;
 	display: flex;
   justify-content: center;
   align-items: center;
-	
-	
-}
-
-
-.logo2{
-	width: 50%;
-	
-}
-
-.container-slogan3{
-	
-	width: 75%;
-	left: 14%;
-	line-height: 130%;
-	top: 5%;
-	position: relative;
-	font-size: 1rem;
 	
 	
 }
