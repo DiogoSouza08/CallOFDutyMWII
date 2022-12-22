@@ -178,7 +178,10 @@ nav li a:hover {color: #7cd217;}
 	position: relative;
 	top: 20%;
 }
-
+.linha{
+	margin: 0;
+	
+}
 .container-slogan1{
 	
 	margin: auto;
