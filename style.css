@@ -417,13 +417,7 @@ nav li a:hover {color: #7cd217;}
 	.img-none{display: none;}
 
 }
-@media only screen and (max-width: 1200px) {
-	.logo2-container{
-		left: 25%;
-		position: relative;
-	}
 
-}
 
 @media only screen and (max-width: 780px) {
 
@@ -463,7 +457,7 @@ nav li {
 	float: none;
 }
 nav li a {
-	padding: 21px 25px;
+	padding: 15px 15px;
 	letter-spacing: 3px;
 	font-size: 14px;
 }
