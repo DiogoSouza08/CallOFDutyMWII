@@ -30,6 +30,7 @@ body {
 }
 ol, ul {
 	list-style: none;
+	
 }
 blockquote, q {
 	quotes: none;
@@ -288,7 +289,7 @@ nav li a:hover {color: #7cd217;}
 		
 	}
 		
-
+	
 
 		.slogan3{
 			font-size: 5rem;
@@ -299,6 +300,13 @@ nav li a:hover {color: #7cd217;}
 		}
 		#slogan4{
 			font-size: 3rem;
+			top: 4.5%;
+			font-family: 'Bebas Neue', cursive;
+			position: relative;
+			color: #7cd217;
+		}
+		#slogan5{
+			font-size: 5rem;
 			top: 4.5%;
 			font-family: 'Bebas Neue', cursive;
 			position: relative;
@@ -339,6 +347,7 @@ nav li a:hover {color: #7cd217;}
 		position: relative;
 		font-size: 1rem;
 	}
+	
 	.imgs{
 		padding: .5vw;
 		font-size: 0;
@@ -398,11 +407,16 @@ nav li a:hover {color: #7cd217;}
 	  }
 
 	  #video {
-		width: 100%;
+		width: 100.2%;
 		height: auto;
 		margin: auto;
-		top: 7%;
+		top: 5%;
 		position: relative;
+		box-shadow: 0 0 20px #7cd217,
+		0 0 25px #7cd217,
+		0 0 50px #7cd217,
+		0 0 150px #7cd217;
+	left: -0.2%;
 	  }
 	  
 	  video {
@@ -540,6 +554,7 @@ nav {position: relative;}
 nav ul {
 	height: 100%;
 	overflow-y: auto;
+	
 }
 nav li {
 	display: block;
@@ -570,13 +585,13 @@ nav li:first-child a:hover
 
 /* NAVIGATION ANNIMATION */
 nav {
-	width: 93%;
+	width: 50%;
 	height: 100%;
 	position: fixed;
 	left: 0;
 	top: 0;
 	margin: 0;
-	background-color: #1d2d35;
+	background-color: #0e0e0e;
 	border-radius: 8px;
 	
 	/* starting point */
@@ -806,8 +821,13 @@ header.close,
 			top: 6.5%;
 			position: relative;		
 }	
-}
 
+#slogan5{
+	font-size: 2rem;
+	top: 4.5%;
+	position: relative;
+}
+}
 
 @media only screen and (max-width: 375px) {
 
@@ -817,6 +837,11 @@ header.close,
 		position: relative;		
 }	
 
+#slogan5{
+	font-size: 1.8rem;
+	top: 4.5%;
+	position: relative;		
+}	
 
 }
 
@@ -828,6 +853,10 @@ header.close,
 		position: relative;		
 }	
 
-
+#slogan5{
+	font-size: 1.8rem;
+	top: 4.5%;
+	position: relative;		
+}	
 }
 
