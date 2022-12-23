@@ -650,8 +650,12 @@ nav.close {
 				transform: translate3d(5%,0,0)scale(.97);}
 }
 
-
-
+.poster{
+	display: none;
+}
+#spinner{
+	display: none;
+}
 /* CONTENT ANNIMATION */
 .content {
 	/* starting point */
