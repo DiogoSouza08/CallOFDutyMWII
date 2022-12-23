@@ -274,6 +274,19 @@ nav li a:hover {color: #7cd217;}
 			
 		}
 
+	
+	.logo2-container{
+		
+		width: 85%;
+		top: 1.8%;
+		position: relative;
+		left: 7.4%;
+		display: flex;
+	  justify-content: center;
+	  align-items: center;
+		
+		
+	}
 		
 
 
@@ -380,11 +393,12 @@ nav li a:hover {color: #7cd217;}
 	  }
 
 
+	  .img-principal2{
+		display: none;
+	  }
 
 
-
-
-
+	
 
 
 
@@ -636,25 +650,36 @@ header.close,
 	width: 65%;
 	top: 10%;
 }
-
-
-}
-.logo2-container{
+.img-principal{
+	display: none;
 	
-	width: 85%;
-	top: 1.8%;
-	position: relative;
-	left: 7.4%;
+}
+.img-principal2{
+	width: 100%;
 	display: flex;
-  justify-content: center;
-  align-items: center;
+	position: relative;
 	
+}
+.slogan{
+	left: 200%;
+	position: relative;
+	width: 170%;
+	top: 10%;
+}
+.botão-comprar{
+	width: 140%;
+	top: 23%;
+	left: 215%;
 	
 }
 
+.botão-trailer{
+	width: 140%;
+	top: 23%;
+	left: 215%;
+}
 
-
-
+}
 
 
 
@@ -671,21 +696,9 @@ header.close,
 
 
 @media only screen and (max-width: 425px) {
-	.botão-comprar{
-		width: 65%;
-		top: 5%;
-	
-		
-	}
-	
-	.botão-trailer{
-		width: 65%;
-		top: 5%;
-	}
 
-.slogan{
-	width: 20%;
-}
+
+
 .container-slogan3{
 	font-size: 0.6rem;
 	}
