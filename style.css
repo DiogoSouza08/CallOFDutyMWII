@@ -156,7 +156,7 @@ nav li a:hover {color: #7cd217;}
 {padding: 0;}
 
 .header-section {background-color: #1a1a1a;}
-.body-section {background-color: #1a1a1a;border: 1px solid rgb(255, 255, 255);}
+.body-section {background-color: #1a1a1a;border: 1px solid rgb(255, 255, 255);border-top-style: none;}
 .footer-section {background-color: #1a1a1a;}
 .placefiller {
 	text-align: center;
@@ -397,20 +397,109 @@ nav li a:hover {color: #7cd217;}
 		display: none;
 	  }
 
-
-	
-
-
-
-
-
-
-
-
-
-
-
+	  #video {
+		width: 100%;
+		height: auto;
+		margin: auto;
+		top: 7%;
+		position: relative;
+	  }
+	  
+	  video {
+		width: 100%;
+		height: auto;
+		cursor: pointer;
+	  }
+	  
+	  /*Spinner load*/
+	  .poster {
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: rotateZ(45deg);
+	  }
+	  
+	  .poster .cube {
+		  position: relative;
+		  transform: rotateZ(45deg);
+	  }
+	  
+	  .poster .cube {
+		  float: left;
+		  width: 50%;
+		  height: 50%;
+		  position: relative;
+		  transform: scale(1.1);
+	  }
+	  
+	  .poster .cube:before {
+		  content: "";
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
+		  background-color: rgb(43, 199, 77);
+		  animation: cube 1.08s infinite linear both;
+		  transform-origin: 100% 100%;
+	  }
+	  
+	  .poster .c2 {
+		  transform: scale(1.1) rotateZ(90deg);
+	  }
+	  
+	  .poster .c3 {
+		  transform: scale(1.1) rotateZ(180deg);
+	  }
+	  
+	  .poster .c4 {
+		  transform: scale(1.1) rotateZ(270deg);
+	  }
+	  
+	  .poster .c2:before {
+		  animation-delay: 0.135s;
+	  }
+	  
+	  .poster .c3:before {
+		  animation-delay: 0.27s;
+	  }
+	  
+	  .poster .c4:before {
+		  animation-delay: 0.405s;
+	  }
+	  
+	  @keyframes cube {
+		  0%, 10% {
+			  transform: perspective(70px) rotateX(-180deg);
+			  opacity: 0;
+		  }
 		
+		  25%, 75% {
+			  transform: perspective(70px) rotateX(0deg);
+			  opacity: 1;
+		  }
+		
+		90%, 100% {
+		  transform: perspective(70px) rotateY(180deg);
+		  opacity: 0;
+		}
+	  }
+	  
+	  @keyframes bg-pan-top {
+		0% {
+		  background-position: 0% 50%;
+		}
+		50% {
+		  background-position: 50% 100%;
+		}
+		100% {
+		  background-position: 0% 50%;
+		}
+	  }
+	  
+
 
 
 @media only screen and (max-width: 751px) {
