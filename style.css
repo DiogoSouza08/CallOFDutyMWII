@@ -144,7 +144,7 @@ nav li a:hover {color: #7cd217;}
 }
 .logo{
     width: 100%;
-	margin-left: 24%;
+	margin-left: 24%;se
     position: relative;
 	
 }
@@ -267,7 +267,7 @@ nav li a:hover {color: #7cd217;}
 		.section2{
 			background-color: #1a1a1a;
 			width: 100%;
-			height: 950%;
+			height: 1300%;
 			color: #ffffff;
 			position: absolute;
 			border: 1px solid rgb(255, 255, 255);
@@ -308,6 +308,20 @@ nav li a:hover {color: #7cd217;}
 		#slogan5{
 			font-size: 5rem;
 			top: 4.5%;
+			font-family: 'Bebas Neue', cursive;
+			position: relative;
+			color: #7cd217;
+		}
+		#slogan6{
+			font-size: 5rem;
+			top: 7%;
+			font-family: 'Bebas Neue', cursive;
+			position: relative;
+			color: #7cd217;
+		}
+		#slogan7{
+			font-size: 5rem;
+			top:9.5%;
 			font-family: 'Bebas Neue', cursive;
 			position: relative;
 			color: #7cd217;
@@ -401,7 +415,62 @@ nav li a:hover {color: #7cd217;}
 		height: auto; 
 	  }
 
+	  #imgs-conteudo{
+		font-size: 0;
+		display: -ms-flexbox;
+		-ms-flex-wrap: wrap;
+		-ms-flex-direction: column;
+		-webkit-flex-flow: row wrap; 
+		flex-flow: row wrap; 
+		display: -webkit-box;
+		display: flex;
+		position: relative;
+		top: 7.3%;
+	}
+	
+	#imgs-conteudo div { 
+		-webkit-box-flex: auto;
+		-ms-flex: auto;
+		flex: auto; 
+		width: 450px; 
+		
+	  }
 
+	  #imgs-conteudo div img { 
+		width: 100%; 
+		height: auto; 
+	  }
+	  #imgs-conteudo2{
+		font-size: 0;
+		display: -ms-flexbox;
+		-ms-flex-wrap: wrap;
+		-ms-flex-direction: column;
+		-webkit-flex-flow: row wrap; 
+		flex-flow: row wrap; 
+		display: -webkit-box;
+		display: flex;
+		position: relative;
+		top: 10%;
+		box-shadow: 0 0 20px #000000,
+		0 0 25px #000000,
+		0 0 50px #000000,
+		0 0 150px #000000;
+	
+	}
+	
+	#imgs-conteudo2 div { 
+		-webkit-box-flex: auto;
+		-ms-flex: auto;
+		flex: auto; 
+		width: 150px; 
+		
+	  }
+
+	  #imgs-conteudo2 div img { 
+		width: 100%; 
+		height: auto; 
+	  }
+	  
 	  .img-principal2{
 		display: none;
 	  }
@@ -412,10 +481,10 @@ nav li a:hover {color: #7cd217;}
 		margin: auto;
 		top: 5%;
 		position: relative;
-		box-shadow: 0 0 20px #7cd217,
-		0 0 25px #7cd217,
-		0 0 50px #7cd217,
-		0 0 150px #7cd217;
+		box-shadow: 0 0 20px #000000,
+		0 0 25px #000000,
+		0 0 50px #000000,
+		0 0 150px #000000;
 	left: -0.2%;
 	  }
 	  
@@ -455,7 +524,7 @@ nav li a:hover {color: #7cd217;}
 		  left: 0;
 		  width: 100%;
 		  height: 100%;
-		  background-color: rgb(43, 199, 77);
+		  background-color:#7cd217;
 		  animation: cube 1.08s infinite linear both;
 		  transform-origin: 100% 100%;
 	  }
@@ -570,11 +639,11 @@ nav li a.logo {
 }
 nav li a.active {
 	color: #fff;
-	background-color: #141e23;
+	background-color: #000000;
 }
 nav li a:hover {
 	color: #fff;
-	background-color: #19252c;
+	background-color: #7cd217;
 }
 nav li:first-child a.active,
 nav li:first-child a:hover 
@@ -585,13 +654,13 @@ nav li:first-child a:hover
 
 /* NAVIGATION ANNIMATION */
 nav {
-	width: 50%;
+	width: 100%;
 	height: 100%;
 	position: fixed;
 	left: 0;
 	top: 0;
 	margin: 0;
-	background-color: #0e0e0e;
+	background-color: #000000;
 	border-radius: 8px;
 	
 	/* starting point */
@@ -827,6 +896,16 @@ header.close,
 	top: 4.5%;
 	position: relative;
 }
+#slogan6{
+	font-size: 2rem;
+	top: 7%;
+	position: relative;
+}
+#slogan7{
+	font-size: 2rem;
+	top: 9.5%;
+	position: relative;
+}
 }
 
 @media only screen and (max-width: 375px) {
@@ -856,6 +935,16 @@ header.close,
 #slogan5{
 	font-size: 1.8rem;
 	top: 4.5%;
+	position: relative;		
+}	
+#slogan6{
+	font-size: 1.8rem;
+	top: 7%;
+	position: relative;		
+}	
+#slogan7{
+	font-size: 1.8rem;
+	top: 9.5%;
 	position: relative;		
 }	
 }
