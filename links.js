@@ -40,3 +40,11 @@ video.addEventListener("click", function( event ) {
     }
   }
 }, false);
+
+function trailerpass(){
+  window.open("https://www.youtube.com/watch?v=N3QHb-202gg", '_blank');
+}
+
+function comprarpass(){
+  window.open("https://www.callofduty.com/blog/2022/11/call-of-duty-modern-warfare-II-warzone-2-0-battle-pass-bundles-rewards", '_blank');
+}
