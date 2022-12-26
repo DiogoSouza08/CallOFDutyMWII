@@ -221,8 +221,28 @@ nav li a:hover {color: #7cd217;}
 			position: relative;
 			top: 5%;
 		}
+		.botão-comprar-pass{
+			width: 40%;
+			display: flex;
+			left: 58%;
+			position: relative;
+		}
+		
 
-
+		.botão-trailer-pass{
+			width: 40%;
+			
+			display: flex;
+			
+		}
+		.botoes-pass{
+			display: flex;
+			position: relative;
+			top: 10.3%;
+			
+			
+			
+		}
 		.flex-container {
 			padding: 0;
 			margin: 0;
@@ -288,8 +308,18 @@ nav li a:hover {color: #7cd217;}
 		
 		
 	}
+	.passe{
+		top: 9.5%;
+		position: relative;
 		
-	
+		
+	}
+	.img-passe{
+		width: 100%;
+		position: relative;
+		
+		
+	}
 
 		.slogan3{
 			font-size: 5rem;
@@ -321,7 +351,7 @@ nav li a:hover {color: #7cd217;}
 		}
 		#slogan7{
 			font-size: 5rem;
-			top:9.5%;
+			top:8.5%;
 			font-family: 'Bebas Neue', cursive;
 			position: relative;
 			color: #7cd217;
@@ -360,6 +390,7 @@ nav li a:hover {color: #7cd217;}
 		top: 2%;
 		position: relative;
 		font-size: 1rem;
+		text-transform: uppercase;
 	}
 	
 	.imgs{
@@ -450,11 +481,8 @@ nav li a:hover {color: #7cd217;}
 		display: -webkit-box;
 		display: flex;
 		position: relative;
-		top: 10%;
-		box-shadow: 0 0 20px #000000,
-		0 0 25px #000000,
-		0 0 50px #000000,
-		0 0 150px #000000;
+		top: 9%;
+		
 	
 	}
 	
@@ -471,6 +499,40 @@ nav li a:hover {color: #7cd217;}
 		height: auto; 
 	  }
 	  
+
+	  .imgs-pass{
+		padding: .5vw;
+		font-size: 0;
+		display: -ms-flexbox;
+		-ms-flex-wrap: wrap;
+		-ms-flex-direction: column;
+		-webkit-flex-flow: row wrap; 
+		flex-flow: row wrap; 
+		display: -webkit-box;
+		display: flex;
+		position: relative;
+		top: 10%;
+	}
+	
+	.imgs-pass div { 
+		-webkit-box-flex: auto;
+		-ms-flex: auto;
+		flex: auto; 
+		width: 350px; 
+		margin: .5vw; 
+	  }
+
+	  .imgs-pass div img { 
+		width: 100%; 
+		height: auto; 
+	  }
+
+
+
+
+
+
+
 	  .img-principal2{
 		display: none;
 	  }
@@ -821,6 +883,19 @@ header.close,
 	width: 65%;
 	top: 10%;
 }
+.botão-comprar-pass{
+	width: 65%;
+	display: flex;
+	left: 30%;
+	position: relative;
+}
+
+
+.botão-trailer-pass{
+	width: 65%;
+	
+	display: flex;}
+
 .img-principal{
 	display: none;
 	
@@ -887,7 +962,7 @@ header.close,
 		
 		#slogan4{
 			font-size: 2rem;
-			top: 6.5%;
+			top: 5.5%;
 			position: relative;		
 }	
 
@@ -903,18 +978,23 @@ header.close,
 }
 #slogan7{
 	font-size: 2rem;
-	top: 9.5%;
+	top: 8.5%;
 	position: relative;
 }
-}
 
+.imgs-pass div { 
+	-webkit-box-flex: auto;
+	-ms-flex: auto;
+	flex: auto; 
+	width: 150px; 
+	margin: .5vw; 
+  }
+  .section2{
+	height: 1550%;
+}
+}
 @media only screen and (max-width: 375px) {
 
-	#slogan4{
-		font-size: 1.8rem;
-		top: 7%;
-		position: relative;		
-}	
 
 #slogan5{
 	font-size: 1.8rem;
@@ -928,7 +1008,7 @@ header.close,
 
 	#slogan4{
 		font-size: 1.8rem;
-		top: 9%;
+		top: 7%;
 		position: relative;		
 }	
 
@@ -944,7 +1024,7 @@ header.close,
 }	
 #slogan7{
 	font-size: 1.8rem;
-	top: 9.5%;
+	top: 8.5%;
 	position: relative;		
 }	
 }
