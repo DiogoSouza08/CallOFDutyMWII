@@ -287,10 +287,9 @@ nav li a:hover {color: #7cd217;}
 		.section2{
 			background-color: #1a1a1a;
 			width: 100%;
-			height: 1160%;
+			height: 820%;
 			color: #ffffff;
 			position: absolute;
-			border: 1px solid rgb(255, 255, 255);
 			text-align: center;
 			
 		}
@@ -641,7 +640,24 @@ nav li a:hover {color: #7cd217;}
 	
 
 
+	.footer{
+		background-color: #1a1a1a;
+		border: white solid 1PX;
+		position: relative;
+		width: 100%;
+		height: 80%;
+		display: flex;
+		
+		justify-content: center;
+	}
 
+	.logo-footer{
+		width: 20%;
+		display: flex;
+		position: relative;
+	}
+
+	
 	  .img-principal2{
 		display: none;
 	  }
@@ -1043,11 +1059,9 @@ position: relative;}
 }
 .section2{
 	height: 1200%;
-	border: none;
+	
 }
-.body-section{
-	border: none;
-}
+
 }
 
 
@@ -1165,5 +1179,4 @@ position: relative;}
 	height: 1560%;
 }
 }
-
 
