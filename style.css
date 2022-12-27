@@ -287,7 +287,7 @@ nav li a:hover {color: #7cd217;}
 		.section2{
 			background-color: #1a1a1a;
 			width: 100%;
-			height: 1300%;
+			height: 1160%;
 			color: #ffffff;
 			position: absolute;
 			border: 1px solid rgb(255, 255, 255);
@@ -320,6 +320,9 @@ nav li a:hover {color: #7cd217;}
 		
 		
 	}
+	#slidy-container { 
+		width: 100%; overflow: hidden; margin: 0 auto;top: 12%;position: relative;
+	  }
 
 		.slogan3{
 			font-size: 5rem;
@@ -352,6 +355,13 @@ nav li a:hover {color: #7cd217;}
 		#slogan7{
 			font-size: 5rem;
 			top:8.5%;
+			font-family: 'Bebas Neue', cursive;
+			position: relative;
+			color: #7cd217;
+		}
+		#slogan8{
+			font-size: 8rem;
+			top:11.5%;
 			font-family: 'Bebas Neue', cursive;
 			position: relative;
 			color: #7cd217;
@@ -527,9 +537,105 @@ nav li a:hover {color: #7cd217;}
 		height: auto; 
 	  }
 
+	  .zeus{
+		width: 90%;
+	  }
+	  .victus{
+		width: 90%;
+	  }
+	  .zero{
+		width: 90%;
+	  }
+	  .kastov{
+		width: 90%;
+	  }
+	  .aq{
+		width: 90%;
+	  }
+	  .bas-p{
+		width: 90%;
+	  }
+	  .ruina-mortal{
+		width: 90%;
+	  }
+	  .roze{
+		width: 90%;
+	  }
 
-
-
+	  .carousel {
+		align-items: center;
+		max-height: 330px;
+		overflow: hidden;
+		max-width: 600px;
+		position: relative;
+		top: 9.8%;
+		left: 5%;
+	  }
+	
+	.carousel__item,
+	.carousel__item--hidden {
+		display: none;
+	}
+	
+	.carousel__item--visible {
+		display: flex;
+		animation: fade 500ms ease-in-out;
+	}
+	
+	@keyframes fade{
+		 0%{
+			 transform: translatex(-100%);
+		} 
+		100%{
+			transform: translatex(0);
+		}
+	}
+	
+	.carousel__action{
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: 50%;
+		width: 100%;
+		transform: translateY(-50%);
+	}
+	
+	button{
+		padding:  1.6rem;
+		display: inline-flex;
+		border-radius: 50%;
+		width: 2rem;
+		height: 2rem;
+		border: 0;
+		background: #0000;
+		position: relative;
+	}
+	
+	.btn-next::before,
+	.btn-prev::before {
+		cursor: pointer;
+		content:'';
+		position: absolute; 
+		width: 0;
+		height: 0;
+	}
+	
+	.btn-prev::before{
+		top: 50%;
+		left: 50%;
+		transform:translateX(-50%) translatey(-50%);
+		border: 1.2rem solid;
+		border-color: #0000 #7cd217 #0000 #0000;
+	}
+	
+	.btn-next::before{
+		top: 50%;
+		right: 120%;
+		transform:translateX(50%) translatey(-50%);
+		border: 1.2rem solid;
+		border-color: #0000 #0000 #0000 #7cd217;
+	}
+	
 
 
 
@@ -538,7 +644,7 @@ nav li a:hover {color: #7cd217;}
 	  }
 
 	  #video {
-		width: 100.2%;
+		width: 100%;
 		height: auto;
 		margin: auto;
 		top: 5%;
@@ -547,7 +653,8 @@ nav li a:hover {color: #7cd217;}
 		0 0 25px #000000,
 		0 0 50px #000000,
 		0 0 150px #000000;
-	left: -0.2%;
+		
+	
 	  }
 	  
 	  video {
@@ -649,7 +756,11 @@ nav li a:hover {color: #7cd217;}
 
 @media only screen and (max-width: 751px) {
 	.img-none{display: none;}
-
+	
+}
+@media only screen and (min-width: 426px) {
+	.carousel{display: none;}
+	
 }
 
 
@@ -884,17 +995,18 @@ header.close,
 	top: 10%;
 }
 .botão-comprar-pass{
-	width: 65%;
+	width: 85%;
 	display: flex;
-	left: 30%;
+	left: 10%;
 	position: relative;
 }
 
 
 .botão-trailer-pass{
-	width: 65%;
-	
-	display: flex;}
+	width: 85%;
+	left: 5.5%;
+	display: flex;
+position: relative;}
 
 .img-principal{
 	display: none;
@@ -950,7 +1062,7 @@ header.close,
 	}
 	.slogan3{
 		font-size: 2rem;
-		top: 2.2%;
+		top: 2%;
 		
 		
 	}
@@ -965,6 +1077,10 @@ header.close,
 			top: 5.5%;
 			position: relative;		
 }	
+.logo2-container{
+		
+	width: 85%;
+	top: 1.7%;}
 
 #slogan5{
 	font-size: 2rem;
@@ -981,16 +1097,17 @@ header.close,
 	top: 8.5%;
 	position: relative;
 }
+#slogan8{
+	font-size: 2rem;
+	top: 11.5%;
+	position: relative;
+}
 
 .imgs-pass div { 
-	-webkit-box-flex: auto;
-	-ms-flex: auto;
-	flex: auto; 
-	width: 150px; 
-	margin: .5vw; 
+	display: none;
   }
   .section2{
-	height: 1550%;
+	height: 940%;
 }
 }
 @media only screen and (max-width: 375px) {
