@@ -26,8 +26,8 @@
     <ul>
       <li><a href="#slogan4"><i class="dgicon-users"></i> Personagens</a></li>
       <li><a href="#slogan5"><i class="dgicon-tools"></i> Gameplay</a></li>
-      <li><a href="#"><i class="dgicon-vcard"></i> Passe de Batalha</a></li>
-      <li><a href="#"><i class="dgicon-window"></i> Mapas</a></li>
+      <li><a href="#img-passe"><i class="dgicon-vcard"></i> Passe de Batalha</a></li>
+      <li><a href="#slogan8"><i class="dgicon-window"></i> Mapas</a></li>
     </ul>
   </nav>
   <div class="content slideRight">
@@ -95,7 +95,7 @@
                 
                 
                 <div class="passe">
-                <img src="./Imagens/img-pass.png" class="img-passe">
+                <img src="./Imagens/img-pass.png" class="img-passe" id="img-passe">
                 <div class="container-slogan4"><p>O Call of Duty® tem um novo Passe de Batalha que dá aos jogadores a chance de escolher o conteúdo do Passe de Batalha que querem desbloquear. Não importa se você prioriza novas armas ou se considera um colecionador de Skins de Operadores, é você quem decide o caminho de desbloqueio dos itens do Passe de Batalha.</p></div>
                 </div>
 
@@ -111,41 +111,75 @@
                   <div><img src="./Imagens/victus.png" alt></div>
                 </div>  
 
+                <div class="carousel">
+                  <div class="carousel__item carousel__item--visible">
+                    <img src="./Imagens/zeus.png" alt="" class="zeus"/>
+                  </div>
+                  <div class="carousel__item">
+                    <img src="./Imagens/victus.png" alt="" class="victus"/>
+                  </div>
+                  <div class="carousel__item">
+                    <img src="./Imagens/zero.png" alt="" class="zero" />
+                  </div>
+                  <div class="carousel__item">
+                    <img src="./Imagens/kastov.png" alt="" class="kastov" />
+                  </div>    
+                  <div class="carousel__item">
+                    <img src="./Imagens/aq.png" alt="" class="aq"/>
+                  </div>
+                  <div class="carousel__item">
+                    <img src="./Imagens/bas-p.png" alt="" class="aq"/>
+                  </div>
+                  <div class="carousel__item">
+                    <img src="./Imagens/RUINA MORTAL.png" alt="" class="ruina-mortal"/>
+                  </div>
+                  <div class="carousel__item">
+                    <img src="./Imagens/roze.png" alt="" class="roze"/>
+                  </div>
+                  <div class="carousel__action">
+                    <button class="btn-prev" id="carousel__btn--prev"></button>
+                      <button class="btn-next" id="carousel__btn--next"></button>
+                  </div>
+            
+                </div>
+
+
+
+
 
                   <div class="botoes-pass"><a href="#"> <img src="./Imagens/saiba mais.svg" class="botão-comprar-pass" onClick="comprarpass()"></a> <a href="#"><img src="./Imagens/ver trailer pass.svg" class="botão-trailer-pass" onClick="trailerpass()"></a></div>
+
+                  <p id="slogan8">MAPAS DO JOGO </p>
+
+                  
+                  <div id="slidy-container">
+                    <figure id="slidy">
+                      <img src="./Imagens/mercado das almas.png" alt="eyes" >
+                      <img src="./Imagens/crown.png" alt="lou" >
+                      <img src="./Imagens/farm18.png" alt="lucie-2" >
+                      <img src="./Imagens/embassy.png" alt="lucie" >
+                      <img src="./Imagens/hotel.png" alt="lucie" >
+                      <img src="./Imagens/asilo.png" alt="lucie" >
+                      <img src="./Imagens/valderas.png" alt="lucie" >
+                      <img src="./Imagens/zarqwa.png" alt="lucie" >
+                      <img src="./Imagens/santa sena.png" alt="lucie" >
+                      <img src="./Imagens/shipment.png" alt="lucie" >
+                      <img src="./Imagens/shoothouse.png" alt="lucie" >
+                      <img src="./Imagens/al bagra.png" alt="lucie" >
+                      <img src="./Imagens/taraq.png" alt="lucie" >
+                    </figure>
+                  </div>
+                  
     </div>
 
-    
-
-    
-
-
-    
-    
-    
-    
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <!-- <li class="footer-section">
+      <li class="footer-section">
         <p class="placefiller">Footer</p>
-      </li> -->
+      </li>
     </ul>
   </div>
 </div>
 
 <script src="script.js"></script>
 <script src="links.js"></script>
-<script src="cardslider.js"></script>
+<script src="carrosel.js"></script>
 </html>
