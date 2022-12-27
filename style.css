@@ -566,20 +566,23 @@ nav li a:hover {color: #7cd217;}
 		align-items: center;
 		max-height: 330px;
 		overflow: hidden;
-		max-width: 600px;
+		max-width: 900px;
 		position: relative;
 		top: 9.8%;
-		left: 5%;
+		padding-left: 9.3%;
+		width: 100%;
 	  }
 	
 	.carousel__item,
 	.carousel__item--hidden {
 		display: none;
+		position: relative;
 	}
 	
 	.carousel__item--visible {
 		display: flex;
 		animation: fade 500ms ease-in-out;
+		position: relative;
 	}
 	
 	@keyframes fade{
@@ -596,7 +599,7 @@ nav li a:hover {color: #7cd217;}
 		justify-content: space-between;
 		position: absolute;
 		top: 50%;
-		width: 100%;
+		width: 71.7%;
 		transform: translateY(-50%);
 	}
 	
@@ -615,14 +618,14 @@ nav li a:hover {color: #7cd217;}
 	.btn-prev::before {
 		cursor: pointer;
 		content:'';
-		position: absolute; 
+		position: relative; 
 		width: 0;
 		height: 0;
 	}
 	
 	.btn-prev::before{
 		top: 50%;
-		left: 50%;
+		left: 20%;
 		transform:translateX(-50%) translatey(-50%);
 		border: 1.2rem solid;
 		border-color: #0000 #7cd217 #0000 #0000;
@@ -630,7 +633,7 @@ nav li a:hover {color: #7cd217;}
 	
 	.btn-next::before{
 		top: 50%;
-		right: 120%;
+		left: 20%;
 		transform:translateX(50%) translatey(-50%);
 		border: 1.2rem solid;
 		border-color: #0000 #0000 #0000 #7cd217;
@@ -983,12 +986,14 @@ header.close,
 	top: 12%;
 }
 
-.botão-comprar{
-	width: 65%;
-	top: 10%;
 
-	
+
+.slogan3{
+	position: relative;
+	top: 2.2%;
 }
+
+
 
 .botão-trailer{
 	width: 65%;
@@ -1022,22 +1027,26 @@ position: relative;}
 	left: 200%;
 	position: relative;
 	width: 170%;
-	top: 10%;
+	top: 4%;
 }
 .botão-comprar{
 	width: 140%;
-	top: 23%;
+	top: 8%;
 	left: 215%;
 	
 }
 
 .botão-trailer{
 	width: 140%;
-	top: 23%;
+	top: 8%;
 	left: 215%;
 }
-
+.section2{
+	height: 1190%;
 }
+}
+
+
 
 
 
@@ -1083,7 +1092,7 @@ position: relative;}
 	top: 1.7%;}
 
 #slogan5{
-	font-size: 2rem;
+	font-size: 3.3rem;
 	top: 4.5%;
 	position: relative;
 }
@@ -1098,8 +1107,8 @@ position: relative;}
 	position: relative;
 }
 #slogan8{
-	font-size: 2rem;
-	top: 11.5%;
+	font-size: 3rem;
+	top: 11.7%;
 	position: relative;
 }
 
@@ -1107,18 +1116,20 @@ position: relative;}
 	display: none;
   }
   .section2{
-	height: 940%;
+	height: 1480%;
 }
 }
 @media only screen and (max-width: 375px) {
 
 
 #slogan5{
-	font-size: 1.8rem;
+	font-size: 3rem;
 	top: 4.5%;
 	position: relative;		
 }	
-
+.section2{
+	height: 1520%;
+}
 }
 
 @media only screen and (max-width: 320px) {
@@ -1130,7 +1141,7 @@ position: relative;}
 }	
 
 #slogan5{
-	font-size: 1.8rem;
+	font-size: 3rem;
 	top: 4.5%;
 	position: relative;		
 }	
@@ -1144,5 +1155,9 @@ position: relative;}
 	top: 8.5%;
 	position: relative;		
 }	
+.section2{
+	height: 1560%;
 }
+}
+
 
